@@ -1,9 +1,11 @@
 <main>
-  <header class="brand-name">
-    <img class="brand-logo" 
+  <a [routerLink]="['/']">
+    <header class="brand-name">
+      <img class="brand-logo" 
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEgUsmkAQ8exgTi7bwt4tIxA64UwSQKmcHQ&s" 
       alt="logo" aria-hidden="true">
-  </header>
+    </header>
+  </a>
   <section class="content">
     <router-outlet></router-outlet>
   </section>
